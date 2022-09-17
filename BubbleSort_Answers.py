@@ -1,18 +1,7 @@
-array = [ 8,
-7,
-3,
-9,
-6,
-9,
-5,
-5,
-6,
-7,
-7
-]
+array = [27, 15, 2, 38, 16, 1]
 order = input("Is it 'asc' or 'desc'?\n")
 
-def bubbleSort():
+def bubbleSort(array):
     Pass = 0
     print(array)
     swapped = True
@@ -41,8 +30,9 @@ def bubbleSort():
                 print(array)
         print(array)
     print("Pass Count : " + str(Pass))
+    return array
 
-bubbleSort()
+bubbleSort(array)
 
 
 
